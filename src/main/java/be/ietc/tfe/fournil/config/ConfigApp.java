@@ -39,7 +39,7 @@ public class ConfigApp implements WebMvcConfigurer {
 
 	@Override
 	public void addResourceHandlers(ResourceHandlerRegistry registry) {
-		registry.addResourceHandler("/css/**", "/js/**").addResourceLocations("/css/", "/js/");
+		registry.addResourceHandler("/css/**", "/js/**", "/image/**").addResourceLocations("/css/", "/js/", "/image/");
 
 	}
 
